@@ -4,8 +4,95 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
 }
+.product{
+    width: 670px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px rgba(88, 88, 88, 0.685);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    display: flex;
+    padding: 0;
+    height: 440px;
 
+    
+}
+.left-side{
+    background: linear-gradient(#06d7c1, #50cc49);
+    padding: 30px;
+    border-radius: 15px 0  0 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    flex-basis: 335px;
+}
+.price{
+    font-size: 28px;
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+}
+.quaranty{
+    font-size: 12px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+.sneaker{
+    position: absolute;
+    top: 140px;
+    left: -80px;
+}
+.right-side{
+    border-radius: 0 15px 15px 0;
+    padding: 30px;
+    flex-basis: 335px;
+}
+.right-side h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.right-side h2{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.gray-text{
+    color:#959595 ;
+}
+.right-side ul{
+    display: flex;
+}
+.right-side li:hover{
+    color: #f15f42 ;
+}
+.right-side li{
+    list-style-type: none;
+    padding: 10px;
+}
+.button a{
+    text-decoration: none; 
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+}
+.button{
+    background-color:  #f15f42 ;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.line{
+    background-color: #06d7c1;
+    height: 1.5px;
+    margin-top: 40px;
+}
 /*
  BARVY
  svetle sede pozadi      #f5f5f5
